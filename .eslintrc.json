@@ -8,5 +8,13 @@
   "parserOptions": {
     "ecmaVersion": "latest"
   },
-  "rules": { "no-console": "off" }
+  "rules": { "no-console": "off" },
+  "overrides": [
+    {
+      "files": ["tests/**/*"],
+      "env": {
+        "jest": true
+      }
+    }
+  ]
 }
